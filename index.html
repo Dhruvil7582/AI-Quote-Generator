@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Quotes Generator</title>
+    <title>Inspirational Quotes Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>AI Quotes Generator</h1>
-    </header>
-    <div class="container">
-        <div id="quoteContainer">
-            <p id="quoteText"></p>
-        </div>
-        <button id="getQuoteBtn" style="background-color: 3498db;">Get Quote</button>
+    <div class="app-layout">
+        <header>
+            <h1>Daily Reflection</h1>
+            <p class="subtitle">Handpicked quotes to inspire your day</p>
+        </header>
+
+        <main class="container">
+            <div id="quoteContainer">
+                <p id="quoteText">"Click the button below to discover a new perspective."</p>
+            </div>
+            <button id="getQuoteBtn">Discover Quote</button>
+        </main>
     </div>
     <script src="script.js"></script>
 </body>
