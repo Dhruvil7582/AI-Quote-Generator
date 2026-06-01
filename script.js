@@ -5,7 +5,7 @@ getQuoteBtn.addEventListener("click", () => {
     setLoadingState(true);
     getQuote();
 });
-
+/*Function*/
 function setLoadingState(isLoading) {
     if (isLoading) {
         getQuoteBtn.classList.add("loading");
